@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hadi Nugroho - Dosen, Peneliti, dan Konsultan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        .showcase {
+            background: url('your-image-url.jpg') no-repeat center center/cover;
+            min-height: 400px;
+            text-align: center;
+            color: #fff;
+        }
+        .showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        .showcase p {
+            font-size: 20px;
+        }
+        .info {
+            padding: 20px;
+            background: #fff;
+            margin: 20px 0;
+        }
+        .info h2 {
+            color: #e8491d;
+        }
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #fff;
+            background-color: #333;
+            text-align: center;
+        }
+        .photo-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .photo-gallery img {
+            width: 100%;
+            height: auto;
+            max-width: 250px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Hadi Nugroho, A.Md. RS, SKM., M.Epid.</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">Tentang Saya</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="showcase">
+        <div class="container">
+            <h1>Selamat Datang di Halaman Pribadi Saya</h1>
+            <p>Dosen, Peneliti, dan Konsultan Analisa Data Kesehatan</p>
+        </div>
+    </section>
+
+    <section id="about" class="info">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <p>Saya adalah Dosen di Universitas Ichsan Satya yang mempunyai background keilmuan Epidemiologi. Saya mempunyai pengalaman mengajar sejak tahun 2013. Saya pernah terlibat dalam beberapa penelitian, baik sebagai peneliti, pembimbing, maupun konsultan penelitian. Bidang ilmu yang pernah melibatkan Saya dengan penelitian seperti; Manajemen Rumah Sakit, Epidemiologi, Kesehatan Masyarakat, Geriatri, Tumbuh Kembang Anak, Kesehatan Mental, Rekam Medis, Farmasi, Keperawatan, Kesehatan Lingkungan, dan Psikologi.</p>
+        </div>
+    </section>
+
+    <section id="portfolio" class="info">
+        <div class="container">
+            <h2>Galeri Foto</h2>
+            <div class="photo-gallery">
+                <img src="photo1.jpg" alt="Foto 1">
+                <img src="photo2.jpg" alt="Foto 2">
+                <img src="photo3.jpg" alt="Foto 3">
+                <!-- Tambahkan lebih banyak foto sesuai kebutuhan -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="info">
+        <div class="container">
+            <h2>Kontak</h2>
+            <p>Email: hnugroho2024@gmail.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Hadi Nugroho &copy; 2024</p>
+    </footer>
+</body>
+</html>
